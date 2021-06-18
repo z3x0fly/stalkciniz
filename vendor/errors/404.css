@@ -1,0 +1,59 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(#111, #111);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+
+.message {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.message h1, .message h2, .message h3 {
+  margin: 0;
+  line-height: .8;
+}
+.message h2, .message h3 {
+  font-weight: 300;
+  color: #03DAC6;
+}
+.message h1 {
+  font-weight: 700;
+  color: #03DAC6;
+  font-size: 8em;
+}
+.message h2 {
+  margin: 30px 0;
+}
+.message h3 {
+  font-size: 2.5em;
+}
+.message h4 {
+  display: inline-block;
+  margin: 0 15px;
+}
+.message button {
+  background: transparent;
+  border: 2px solid #03DAC6;
+  color: #03DAC6;
+  padding: 5px 15px;
+  font-size: 1.25em;
+  transition: all 0.15s ease;
+  border-radius: 3px;
+}
+.message button:hover {
+  background: #03DAC6;
+  border: 2px solid #03DAC6;
+  color: #FFFFFF;
+  cursor: pointer;
+  transform: scale(1.05);
+}
